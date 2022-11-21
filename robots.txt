@@ -1,0 +1,19 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+User-agent: BadBot
+Disallow: /
+
+User-agent: msnbot
+Disallow: /
+
+User-agent: arachnophilia
+Disallow: /
+
+User-agent: Microsoft.URL.Control
+Disallow: /
+
+User-agent: webcopy
+Disallow: /
